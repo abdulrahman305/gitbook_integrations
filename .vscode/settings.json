@@ -31,5 +31,16 @@
     "files.exclude": {
         "**/firebase-export-*": true
     },
-    "prettier.documentSelectors": ["{**/*,*}.{js,ts,jsx,tsx,md,mdx,yml,yaml,json,html,css}"]
+    "prettier.documentSelectors": [
+        "{**/*,*}.{js,ts,jsx,tsx,md,mdx,yml,yaml,json,html,css}"
+    ],
+    "workbench.view.alwaysShowHeaderActions": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "typescript.tsserver.maxTsServerMemory": 3072,
+    "typescript.tsserver.watchOptions": {
+        "watchFile": "dynamicPriorityPolling"
+    },
+    "javascript.suggest.includeAutomaticOptionalChainCompletions": false,
+    "debug.saveBeforeStart": "none"
 }
