@@ -4,3 +4,6 @@
 [submodule "openai-node"]
 	path = openai-node
 	url = https://github.com/abdulrahman305/openai-node.git
+[submodule "graphql-engine"]
+	path = graphql-engine
+	url = https://github.com/abdulrahman305/graphql-engine.git
