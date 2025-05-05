@@ -1,0 +1,6 @@
+[submodule "vs-shell-format"]
+	path = vs-shell-format
+	url = https://github.com/abdulrahman305/vs-shell-format.git
+[submodule "openai-node"]
+	path = openai-node
+	url = https://github.com/abdulrahman305/openai-node.git
