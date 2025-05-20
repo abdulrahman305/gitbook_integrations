@@ -25,7 +25,7 @@ export async function handleSubmit(formspree_id, body) {
 // Clean data object being submitted
 export async function removeEmptyValues(object) {
     for (const key in object) {
-        if (object.hasOwnProperty(key)) {
+        if (Object.prototype.hasOwnProperty.call(object, key)) {
             const value = object[key];
             if (value === null || value === undefined || value === '') {
                 delete object[key];
