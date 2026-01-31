@@ -2,7 +2,7 @@
 
 The fetch method in your created integration allows you to handle incoming requests to your integration.
 
-It can be defined in an async function inside the `createIntegration` call, and includes 2 arguments. The function should return a valid [`Response`](../runtime/apis.md).
+It can be defined in an async function inside the `createIntegration` call, and includes 2 arguments. The function should return a valid [`Response`](../apis.md).
 
 ```typescript
 fetch: async (request, context) => {

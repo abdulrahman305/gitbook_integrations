@@ -47,7 +47,7 @@
 
 ## Integrations
 
-* [Overview](integrations/README.md)
+* [Overview](integrations/integrations.md)
 * [Configurations](integrations/configurations.md)
 * [Reference](integrations/reference/README.md)
   * [createIntegration](integrations/reference/createintegration.md)
@@ -58,11 +58,11 @@
   * [Action](integrations/reference/action.md)
   * [Render](integrations/reference/render.md)
   * [Event](integrations/reference/event.md)
-* [Web APIs](integrations/runtime/apis.md)
-* [Receiving Requests](integrations/runtime/receiving-requests.md)
+* [Web APIs](integrations/apis.md)
+* [Receiving Requests](integrations/receiving-requests.md)
 * [ContentKit](integrations/contentkit/README.md)
   * [Reference](integrations/contentkit/reference/README.md)
-    * [Components](integrations/contentkit/reference.md)
+    * [Components](integrations/contentkit/reference/reference.md)
     * [Actions](integrations/contentkit/reference/actions.md)
   * [Interactivity](integrations/contentkit/interactivity.md)
   * [Internal design](integrations/contentkit/internal-design.md)
